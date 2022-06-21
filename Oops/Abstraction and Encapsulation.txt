@@ -1,0 +1,8 @@
+Encapsulation:
+Wrapping up of data members and methods in a class is knows as encapsulation.
+It solves the implementation level issue. How we are writing code, what all classes, objects are being used to achieve that abstraction.
+
+AAbstraction:
+Hiding unecessary details and showing only valuable information.
+We are using println to print something, how it is printing or working internally we do not care.   
+Design issue. How it is being actually designed. It solves the design level issue

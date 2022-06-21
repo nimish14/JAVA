@@ -1,0 +1,49 @@
+Exception: Recoverable. Prevents the normal flow of the program. We can write a cide to prevent exception
+
+Error: Non recoverable. Program cannot handle it.
+
+Try: Try all the things written in there. If any thing happens badly catch it in the catch block.
+Catch: Catch the exception if thrown by try blck and print the appropriate message.
+Finally: No matter if the exception is thrown or not, code inside will always execute. There can be only 1 finally block
+
+Throw: Used to explicitly throw an exception.
+Throws: Used to declare an exception with a method. Says hey you are dividing, it may throw an exception.
+
+ORDERING OF EXCEPTIONS.
+int c= 5/0;
+catch(ArithmeticException e)
+    {
+        System.out.println(e.getMessage());
+
+    }
+    catch(Exception e)
+    {
+        System.out.println("Another Exception handled");
+    }
+
+Here first the ArithmeticException will be caught, then if any other exceptions are there they will be caught by Exception e.
+Put more stict exceptions first 
+
+int c =4/0;
+    catch(Exception e)
+    {
+        System.out.println("Another Exception handled");
+    }
+    
+catch(ArithmeticException e)  //THis will throw an error now
+    {
+        System.out.println(e.getMessage());
+
+    }
+
+Here ArithmeticException will throw an error because already the exception has been caught. Exception class includes everything.
+
+
+
+
+Throwable class handles all exceptions.
+
+                   Object Class
+                 Throwable Class
+         exception                 errors
+    Checked    Unchecked

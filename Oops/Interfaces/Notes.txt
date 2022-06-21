@@ -1,0 +1,5 @@
+Variables in interface are static and final.
+The Java compiler adds public and abstract keywords before the interface method. 
+Moreover, it adds public, static and final keywords before data members.
+
+If there is a static method inside an interface, since it cannot be overridden, it should have a bosy .

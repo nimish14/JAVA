@@ -1,0 +1,12 @@
+1) private: Can only be accessed within a class. Can be retrieved via getter and setter methods.
+No Modifier: Should be used where we ant the visibility only to be under 1 package. No outside package can access it.
+Protected: Can be accessed wholy within a class and only a subclass inside another package.
+Public: Can be accessed from anywhere.
+
+
+2) instanceOf Operator:
+Checks if the object is an instance of the class or not.
+
+
+3) getclass():
+used to get the class name of an object.

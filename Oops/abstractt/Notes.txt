@@ -1,0 +1,20 @@
+Abstract classes:
+The parent class will give only the function name. A generalized form of it, not the body.
+Just giving the definition, not the body.
+These are known as abstract methods.(Which do not have a body).
+Now it will totally depend on the child class to implement it.
+If a class contains one or more abstract methods, it should be declared as abstract.
+
+Now these methods are overriden and implemented by the child class using method overriding.
+
+Syntax:
+
+abstract class Abc
+{ 
+abstract void show();
+}
+
+We cannot create abstract constructors.
+We cannot create abstract static methods. Static methods cannot to be overriden. Abstrat methods need to be overriden. So it doesnt make any sense
+We cannot use final keyword for abstract classes because it prevents it from extension.
+We can create static methods though since we will be caling them through the class name
